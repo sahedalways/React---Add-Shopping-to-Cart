@@ -2,6 +2,9 @@ import React from "react";
 import { Button, Card } from "react-bootstrap";
 import Rating from "./Rating";
 import { CartState } from "./Context/Context";
+import "./products.css"
+
+
 
 const SingleProducts = ({ data }) => {
   const {

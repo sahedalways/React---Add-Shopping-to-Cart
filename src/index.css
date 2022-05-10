@@ -20,7 +20,7 @@ a {
   }
 
   .filters > span {
-    font-size: 10px;
+    font-size: 0.8rem;
   }
 
   .title {
@@ -28,8 +28,8 @@ a {
   }
 
   .productContainer {
-    width: 58%;
-    padding: 0;
+  display: grid;
+  grid-template-columns: 1fr;
   }
 
   .search {
